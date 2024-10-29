@@ -1,0 +1,85 @@
+body{
+	background-color: beige;
+  color: darkgrey; 
+  font-family: 'Arial', sans-serif;
+}
+
+h1{
+	color: grey;
+	font-family: 'Arial', sans-serif;  
+	text-transform:uppercase ;
+	border-bottom: 2px solid grey;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+}
+
+p{
+	font-family: "Calibri";
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+	font-family: 'Arial', sans-serif; 
+  font-weight: 400;
+  color: darkblue; 
+  text-decoration: none;
+}
+
+a:hover {
+color: Black;
+}
+
+@media (max-width: 500px) {
+    .card {
+        padding: 15px;
+	}
+}
+
+.card {
+  background: beige;
+  border: 2px solid black;
+  border-radius: 8px; 
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s; 
+  width: 90%; 
+  max-width: 500px; 
+  margin: 20px auto;
+}
+
+.card{
+  width: 200%; 
+  max-width: 500px; 
+}
+
+.card h2 {
+	margin-bottom: 15px; 
+  color: grey;
+  font-family: 'Arial', sans-serif; 
+}
+
+#perfume {
+	width: 200px;  
+  height: 200px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  border: 2px solid grey;
+  margin: 10px 0;
+}
+
+.card p {
+    display: flex; /* Utilise Flexbox pour le paragraphe */
+    justify-content: flex-end; /* Aligne les éléments à droite */
+    align-items: center; /* Centre les éléments verticalement */
+}
+
+.team-image {
+    width: 100px; 
+    height: 100px;
+    border-radius: 60%; 
+    object-fit: cover; 
+    border: 2px solid grey; 
+    margin: 5px; 
+}
